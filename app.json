@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "js-mastery-react-native",
-    "slug": "js-mastery-react-native",
+    "name": "Aora",
+    "slug": "Aora",
+    "scheme" : "aora",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "package" : "com.jsm.aora"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package" : "com.jsm.aora"
     },
     "web": {
       "bundler": "metro",
